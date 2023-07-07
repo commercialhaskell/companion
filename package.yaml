@@ -1,0 +1,24 @@
+name:        companion
+version:     0.1.0
+synopsis:    A Haskell library to provide companion threads.
+description: Please see the README on GitHub at <https://github.com/commercialhaskell/companion#readme>
+category:    Concurrency
+author:      Michael Snoyman
+maintainer:  Mike Pilgrem <public@pilgrem.com>
+copyright:   2018-2023 FP Complete
+license:     BSD3
+github:      commercialhaskell/companion
+
+extra-source-files:
+- README.md
+- CHANGELOG.md
+
+dependencies:
+- base >= 4.12 && < 5
+- rio
+
+ghc-options:
+- -Wall
+
+library:
+  source-dirs: src
